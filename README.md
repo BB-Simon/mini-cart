@@ -1,6 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mini Cart
+# Getting Started with the Project
+to run this project you need to run:
+`yarn install`
+`yarn start`
 
 ## Available Scripts
 
