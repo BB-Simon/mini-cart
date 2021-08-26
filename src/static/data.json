@@ -1,0 +1,35 @@
+[
+    {
+        "brand_name": "Name Brand.", 
+        "product_name": "Product Name", 
+        "color": "black", 
+        "product_img_url": "./product.png",
+        "product_id": "L - 987W39783DL984", 
+        "price": 200,
+        "shipping": 20,
+        "tax": 10,
+        "duties": 2
+    },
+    {
+        "brand_name": "Name Brand.", 
+        "product_name": "Product Name", 
+        "color": "black",
+        "product_img_url": "./product.png",
+        "product_id": "L - 987W39783DL984", 
+        "price": 549.99,
+        "shipping": 19.99,
+        "tax": 14.99,
+        "duties": 2.49
+    },
+    {
+        "brand_name": "Name Brand.", 
+        "product_name": "Product Name longer name longer name longer name longer name", 
+        "color": "black", 
+        "product_img_url": "./product.png", 
+        "product_id": "L - 987W39783DL984", 
+        "price": 299.99,
+        "shipping": 19.99,
+        "tax": 9.99,
+        "duties": 1.99
+    }
+]

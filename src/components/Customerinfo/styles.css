@@ -1,0 +1,38 @@
+.customerinfo__wrapper {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.customerinfo__heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.customerinfo__heading-tag {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.customerinfo__heading-input {
+    width: 100%;
+    display: block;
+    border: 1px solid #8E8E8E;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    color: #8E8E8E;
+}
+
+.customerinfo__heading-input:focus {
+    border: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+}

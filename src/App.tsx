@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Logo from './assets/Logo';
+import data from './static/data.json'
+import { Product } from './types'
+import Minicart from './components/Minicart/Minicart'
+import CustomerInfo from './components/Customerinfo';
 
 function App() {
+  const products: Product[] = data
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div style={{ textAlign: 'center' }}><Logo /></div>
+      <div style={{ display: 'flex', marginTop: 50 }}>
+        <CustomerInfo />
+        <Minicart products={products} />
+      </div>
     </div>
   );
 }
